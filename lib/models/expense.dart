@@ -32,3 +32,26 @@ class Expense {
 
   String get formattedDate => formatter.format(date);
 }
+
+class ExpenseBucket {
+  final Category category;
+  final List<Expense> expenses;
+
+  const ExpenseBucket({required this.category, required this.expenses});
+
+//create utility constructor with alternative constructor function
+  ExpenseBucket.forCategory(List<Expense> allExpenses, this.category)
+      : expenses = allExpenses // initializer list
+            .where((expense) => expense.category == category)
+            .toList();
+
+  double get totalExpenses {
+    double sum = 0;
+
+    //for-in loop
+    for (final expense in expenses) {
+      sum += expense.amount;
+    }
+    return sum;
+  }
+}
