@@ -1,16 +1,12 @@
-# expense_tracker
+# Expense Tracker
 
-A new Flutter project.
+<p align="center">
+<img src="assets/images/homeScreen.png" alt="Alt text" width="220" height="400">
+<img src="assets/images/addScreen.png" alt="Alt text" width="220" height="400">
+</p>
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Handle Dark Theme and Landscape Orientation
+<p align="center">
+<img src="assets/images/darkScreen.png" alt="Alt text" width="400" height="220">
+<img src="assets/images/darkAdd.png" alt="Alt text" width="400" height="220">
+</p>
